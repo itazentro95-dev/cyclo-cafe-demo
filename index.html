@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyclo Café · Burgers, bières &amp; bicyclettes à Fribourg</title>
+<meta name="description" content="Cyclo Café, boulevard de Pérolles 91 à Fribourg : burgers, frites maison, bières artisanales et décor 100 % vélo, face à l’université. Note Google 4,9/5.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=’http://www.w3.org/2000/svg’ viewBox=’0 0 100 100’%3E%3Ccircle cx=’50’ cy=’50’ r=’42’ fill=’none’ stroke=’%2317573A’ stroke-width=’9’/%3E%3Ccircle cx=’50’ cy=’50’ r=’10’ fill=’%23F0B23E’/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#carte" data-i18n="skip">Aller à la carte</a>
+
+<div class="roadline" aria-hidden="true"><div class="roadline-inner"></div></div>
+
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="Cyclo Café">
+    <svg class="brand-wheel" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="7"/><g stroke="currentColor" stroke-width="4"><line x1="50" y1="8" x2="50" y2="92"/><line x1="8" y1="50" x2="92" y2="50"/><line x1="20" y1="20" x2="80" y2="80"/><line x1="80" y1="20" x2="20" y2="80"/></g><circle cx="50" cy="50" r="9" fill="#F0B23E"/></svg>
+    <span class="brand-word">CYCLO <em>café</em></span>
+    <span class="brand-sub" data-i18n="brandSub">Fribourg · Pérolles</span>
+  </a>
+  <nav class="topnav" aria-label="Navigation">
+    <a href="#carte" data-i18n="navMenu">La carte</a>
+    <a href="#galerie" data-i18n="navGallery">Le peloton</a>
+    <a href="#esprit" data-i18n="navStory">L’esprit vélo</a>
+    <a href="#visite" data-i18n="navVisit">Visite</a>
+  </nav>
+  <div class="top-actions">
+    <div class="lang-switch" role="group" aria-label="Langue / Language">
+      <button type="button" class="lang-btn is-on" data-lang="fr">FR</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a class="btn btn-call" href="tel:+41263220228"><span data-i18n="callBtn">Appeler</span><span class="call-num"> · 026 322 02 28</span></a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO · L’AFFICHE ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-wheels" data-plx="0.35" aria-hidden="true">
+      <svg class="wheel wheel-a" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="2.5"/><g stroke="currentColor" stroke-width="1.4"><line x1="50" y1="6" x2="50" y2="94"/><line x1="6" y1="50" x2="94" y2="50"/><line x1="19" y1="19" x2="81" y2="81"/><line x1="81" y1="19" x2="19" y2="81"/><line x1="31" y1="10" x2="69" y2="90"/><line x1="69" y1="10" x2="31" y2="90"/><line x1="10" y1="31" x2="90" y2="69"/><line x1="90" y1="31" x2="10" y2="69"/></g><circle cx="50" cy="50" r="5" fill="currentColor"/></svg>
+      <svg class="wheel wheel-b" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="2.5"/><g stroke="currentColor" stroke-width="1.4"><line x1="50" y1="6" x2="50" y2="94"/><line x1="6" y1="50" x2="94" y2="50"/><line x1="19" y1="19" x2="81" y2="81"/><line x1="81" y1="19" x2="19" y2="81"/></g><circle cx="50" cy="50" r="5" fill="currentColor"/></svg>
+    </div>
+
+    <div class="hero-copy" data-plx="1.1">
+      <p class="hero-pill" data-i18n="heroEyebrow">Café vélophile, boulevard de Pérolles, Fribourg</p>
+      <h1 class="hero-title">
+        <span data-i18n="h1a">Burgers,</span>
+        <span data-i18n="h1b">bières &amp;</span>
+        <span class="hl" data-i18n="h1c">bicyclettes.</span>
+      </h1>
+      <p class="hero-lede" data-i18n="heroLede">Cafés et boissons fraîches toute la journée, burgers, frites maison et salades midi et soir : le QG des étudiants, face à l’université, dans un décor où tout tourne autour du vélo.</p>
+      <div class="hero-badges">
+        <span class="stamp stamp-star">★ <span data-i18n="badgeRating">4,9 · 108 avis Google</span></span>
+        <span class="stamp" data-i18n="badgeTerrace">Terrasse sur le boulevard</span>
+        <span class="stamp" data-i18n="badgeTakeaway">À emporter</span>
+      </div>
+      <div class="hero-ctas">
+        <a class="btn btn-solid" href="#carte" data-i18n="ctaMenu">Voir la carte</a>
+        <a class="btn btn-ghost" href="tel:+41263220228" data-i18n="ctaCall">Réserver : 026 322 02 28</a>
+      </div>
+    </div>
+
+    <figure class="hero-poster" data-plx="0.85">
+      <div class="poster-card">
+        <img src="assets/hero-burger.webp" alt="Burger au fromage fondu, frites maison et sauce tartare" width="1200" height="900" fetchpriority="high">
+        <figcaption class="poster-chip" data-i18n="posterChip">Servi avec frites maison &amp; salade</figcaption>
+        <div class="leader-badge" aria-hidden="true">
+          <span class="leader-num">4,9</span>
+          <span class="leader-sub" data-i18n="badgeSub">avis Google</span>
+        </div>
+      </div>
+    </figure>
+
+    <ul class="hero-facts">
+      <li><strong data-i18n="fact1t">Face à l’université</strong><span data-i18n="fact1">Bd de Pérolles 91, la faculté est au n° 90</span></li>
+      <li><strong data-i18n="fact2t">Midi : ça roule vite</strong><span data-i18n="fact2">Bondé à l’heure de pointe, mieux vaut réserver</span></li>
+      <li><strong data-i18n="fact3t">Végé &amp; vegan</strong><span data-i18n="fact3">Burgers végétariens, vegan, petits formats</span></li>
+      <li><strong data-i18n="fact4t">Ouvert tard</strong><span data-i18n="fact4">Jusqu’à 23h30, minuit le week-end</span></li>
+    </ul>
+  </section>
+
+  <!-- ============ MARQUEE · LA ROUTE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span data-i18n="mq1">Frites maison</span><i>✦</i><span data-i18n="mq2">Sauce tartare maison</span><i>✦</i><span data-i18n="mq3">Burgers végé &amp; vegan</span><i>✦</i><span data-i18n="mq4">Bières artisanales</span><i>✦</i><span data-i18n="mq5">Terrasse</span><i>✦</i><span data-i18n="mq6">Jusqu’à minuit ven. &amp; sam.</span><i>✦</i>
+      <span data-i18n="mq1">Frites maison</span><i>✦</i><span data-i18n="mq2">Sauce tartare maison</span><i>✦</i><span data-i18n="mq3">Burgers végé &amp; vegan</span><i>✦</i><span data-i18n="mq4">Bières artisanales</span><i>✦</i><span data-i18n="mq5">Terrasse</span><i>✦</i><span data-i18n="mq6">Jusqu’à minuit ven. &amp; sam.</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- ============ MENU · LES ÉTAPES ============ -->
+  <section class="menu" id="carte">
+    <header class="sec-head rv">
+      <p class="prelude" data-i18n="menuKicker">La carte</p>
+      <h2 data-i18n="menuTitle">Trois étapes, aucune côte.</h2>
+      <p class="sec-sub" data-i18n="menuSub">La carte du Cyclo, enfin en ligne, pas seulement sur Facebook. Midi et soir, du premier café au dernier verre.</p>
+      <p class="price-note" data-i18n="priceNote">Prix affichés au comptoir : appelez pour la carte du jour.</p>
+    </header>
+
+    <article class="stage rv">
+      <header class="stage-head">
+        <div><p class="stage-line" data-i18n="st1Tag">Étape 01 · L’étape reine</p><h3 data-i18n="st1Title">Les burgers</h3></div><span class="bib-num">01</span>
+      </header>
+      <ul class="dish-list">
+        <li><div><h4 data-i18n="sig1Name">Le Fribourg</h4><p data-i18n="sig1Desc">Au vacherin fribourgeois fondu : le local de l’étape.</p></div><span class="dish-mark" data-i18n="flagGuest">Chouchou des clients</span></li>
+        <li><div><h4 data-i18n="sig2Name">L’Italy</h4><p data-i18n="sig2Desc">Mozzarella di bufala, comme un air de Giro.</p></div></li>
+        <li><div><h4 data-i18n="sig3Name">Le Fermier</h4><p data-i18n="sig3Desc">Bacon croustillant, esprit ferme et grand air.</p></div></li>
+        <li><div><h4 data-i18n="sig4Name">Le Chilly Indian</h4><p data-i18n="sig4Desc">La version relevée aux épices, pour les grimpeurs.</p></div></li>
+      </ul>
+      <p class="stage-note" data-i18n="sigNote">Et toute la bande : burgers végétariens, burger vegan, petits formats et option sans gluten. Chaque burger part avec frites maison et salade.</p>
+    </article>
+
+    <article class="stage rv">
+      <header class="stage-head">
+        <div><p class="stage-line" data-i18n="st2Tag">Étape 02 · Le ravitaillement</p><h3 data-i18n="st2Title">À côté</h3></div><span class="bib-num">02</span>
+      </header>
+      <ul class="dish-list">
+        <li><div><h4 data-i18n="m21">Frites maison</h4><p data-i18n="m21d">Dorées et généreuses : celles dont tout le monde parle.</p></div></li>
+        <li><div><h4 data-i18n="m22">Sauce tartare maison</h4><p data-i18n="m22d">La signature du comptoir, faite ici.</p></div></li>
+        <li><div><h4 data-i18n="m23">Salades fraîches</h4><p data-i18n="m23d">Dont la salade au poulet, bien garnie.</p></div></li>
+        <li><div><h4 data-i18n="m24">Soupes</h4><p data-i18n="m24d">Le bol qui réchauffe entre deux cours.</p></div></li>
+        <li><div><h4 data-i18n="m25">Paninis &amp; sandwichs chauds</h4><p data-i18n="m25d">Pour les sprints entre deux auditoires.</p></div></li>
+      </ul>
+    </article>
+
+    <article class="stage rv">
+      <header class="stage-head">
+        <div><p class="stage-line" data-i18n="st3Tag">Étape 03 · Du matin au soir</p><h3 data-i18n="st3Title">Le bar &amp; les cafés</h3></div><span class="bib-num">03</span>
+      </header>
+      <ul class="dish-list">
+        <li><div><h4 data-i18n="m31">Cafés, toute la journée</h4><p data-i18n="m31d">Dès 8h, avant le premier cours ou après le dernier.</p></div></li>
+        <li><div><h4 data-i18n="m32">Bières artisanales</h4><p data-i18n="m32d">Dont la Cyclo IPA, citée par les clients.</p></div><span class="dish-mark" data-i18n="flagGuest2">Chouchou des clients</span></li>
+        <li><div><h4 data-i18n="m33">Cocktails &amp; boissons fraîches</h4><p data-i18n="m33d">Avec ou sans alcool, du matin au bout de la nuit.</p></div></li>
+        <li><div><h4 data-i18n="m34">Vins</h4><p data-i18n="m34d">Une sélection pour accompagner l’étape du soir.</p></div></li>
+      </ul>
+      <div class="stage-cta">
+        <a class="btn btn-solid" href="tel:+41263220228" data-i18n="menuCta">Réserver : 026 322 02 28</a>
+        <p data-i18n="menuTakeaway">À emporter aussi : les burgers voyagent très bien.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ GALLERY · LE PELOTON ============ -->
+  <section class="gallery" id="galerie">
+    <header class="sec-head rv">
+      <p class="prelude" data-i18n="galKicker">Galerie</p>
+      <h2 data-i18n="galTitle">Le peloton, en images.</h2>
+      <p class="sec-sub" data-i18n="galSub">Faites glisser : la salle, la terrasse et l’assiette : l’ambiance qui fait revenir les anciens étudiants.</p>
+    </header>
+    <div class="peloton" id="peloton">
+      <figure class="p-card"><img src="assets/interior-velo.webp" alt="Salle rétro aux vélos de course accrochés au mur" loading="lazy" width="1200" height="900"><figcaption data-i18n="cap1">La salle : tout est vélo.</figcaption></figure>
+      <figure class="p-card"><img src="assets/terrace.webp" alt="Terrasse sur le boulevard, vélos contre la balustrade" loading="lazy" width="1200" height="900"><figcaption data-i18n="cap2">La terrasse, sur le boulevard.</figcaption></figure>
+      <figure class="p-card"><img src="assets/frites.webp" alt="Frites maison et sauce tartare" loading="lazy" width="1200" height="900"><figcaption data-i18n="cap3">Frites maison, tartare maison.</figcaption></figure>
+      <figure class="p-card"><img src="assets/ipa.webp" alt="Verre d’IPA devant un cadre de vélo vintage" loading="lazy" width="1200" height="900"><figcaption data-i18n="cap4">L’étape du soir, au comptoir.</figcaption></figure>
+      <figure class="p-card"><img src="assets/coffee.webp" alt="Café du matin près de la fenêtre, vélo dehors" loading="lazy" width="1200" height="900"><figcaption data-i18n="cap5">Le café du matin, dès 8h.</figcaption></figure>
+    </div>
+    <p class="swipe-hint" data-i18n="swipeHint">← Balayez pour faire défiler →</p>
+  </section>
+
+  <!-- ============ STORY · L’ESPRIT VÉLO ============ -->
+  <section class="story" id="esprit">
+    <div class="story-inner rv">
+      <p class="prelude" data-i18n="storyKicker">L’esprit vélo</p>
+      <h2 data-i18n="storyTitle">Un bistrot rétro qui roule au rythme de l’université.</h2>
+      <p data-i18n="storyP1">Ici, tout tourne autour du vélo : c’est la première chose que les clients racontent. Cadres vintage, selles en cuir et roues au mur composent un bistrot rétro et vivant, posé sur le boulevard de Pérolles, le plateau des étudiants de Fribourg.</p>
+      <p data-i18n="storyP2">Le midi, la salle se remplit entre deux cours ; le soir, on refait la journée autour d’une IPA. Et les anciens reviennent, des années après leur diplôme, « pour montrer le meilleur restaurant de Fribourg », sans être déçus.</p>
+      <ul class="story-list">
+        <li data-i18n="chip1">Sur le boulevard depuis 2019 (registre du commerce)</li>
+        <li data-i18n="chip2">Fribourg, ville-pont entre français et allemand</li>
+        <li data-i18n="chip3">Terrasse dès les beaux jours</li>
+        <li data-i18n="chip4">Le QG des ~10 000 étudiants de l’université</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS · LA VOIX DU PELOTON ============ -->
+  <section class="reviews">
+    <header class="sec-head rv">
+      <p class="prelude" data-i18n="revKicker">Avis</p>
+      <h2 data-i18n="revTitle">La voix du peloton.</h2>
+    </header>
+    <div class="rev-grid">
+      <blockquote class="rev-card rv"><p data-i18n="rev1">« Les burgers sont toujours excellents, on y mangeait déjà quand on était étudiants, il y a dix ans. »</p><cite data-i18n="rev1By">Avis Google</cite></blockquote>
+      <blockquote class="rev-card rv"><p data-i18n="rev2">« Les bières sont excellentes, la Cyclo IPA vaut particulièrement le détour. »</p><cite data-i18n="rev2By">Avis TripAdvisor</cite></blockquote>
+      <blockquote class="rev-card rv"><p data-i18n="rev3">« Un lieu culte où se retrouvent les étudiants du quartier. »</p><cite data-i18n="rev3By">Avis Google</cite></blockquote>
+    </div>
+    <p class="rev-note" data-i18n="revNote">Extraits adaptés d’avis publics (Google, TripAdvisor). Note Google : 4,9/5 · 108 avis.</p>
+  </section>
+
+  <!-- ============ VISIT · RAVITAILLEMENT ============ -->
+  <section class="visit" id="visite">
+    <header class="sec-head rv">
+      <p class="prelude" data-i18n="visitKicker">Visite</p>
+      <h2 data-i18n="visitTitle">Ravitaillement : Pérolles 91.</h2>
+    </header>
+    <div class="visit-grid">
+      <div class="visit-card rv">
+        <h3 data-i18n="addrLabel">Adresse</h3>
+        <p class="big-line">Cyclo Café<br>Boulevard de Pérolles 91<br>1700 Fribourg</p>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Cyclo+Caf%C3%A9+Boulevard+de+P%C3%A9rolles+91+1700+Fribourg" target="_blank" rel="noopener" data-i18n="dirBtn">Itinéraire Google Maps</a>
+        <h3 data-i18n="phoneLabel">Téléphone</h3>
+        <p class="big-line"><a href="tel:+41263220228">026 322 02 28</a></p>
+        <h3 data-i18n="followLabel">Suivre la maison</h3>
+        <p><a class="btn btn-ghost" href="https://www.facebook.com/cyclocafefr/" target="_blank" rel="noopener" data-i18n="fbBtn">Facebook · @cyclocafefr</a></p>
+        <ul class="prac-list">
+          <li data-i18n="prac1">Terrasse</li>
+          <li data-i18n="prac2">À emporter</li>
+          <li data-i18n="prac3">Réservations par téléphone</li>
+          <li data-i18n="prac4">Options végé &amp; vegan</li>
+          <li data-i18n="prac5">Accessible en fauteuil</li>
+        </ul>
+      </div>
+      <div class="visit-card rv">
+        <h3 data-i18n="hoursTitle">Heures d’ouverture</h3>
+        <table class="hours">
+          <tr><th data-i18n="day1">Du lundi au jeudi</th><td>08:00 à 23:30</td></tr>
+          <tr><th data-i18n="day2">Vendredi</th><td>08:00 à 00:00</td></tr>
+          <tr><th data-i18n="day3">Samedi</th><td>09:00 à 00:00</td></tr>
+          <tr><th data-i18n="day4">Dimanche</th><td data-i18n="closed">Fermé</td></tr>
+        </table>
+        <p class="sat-note" data-i18n="satNote">Le samedi, l’heure d’ouverture varie selon les sources (9h ou 10h) : un coup de fil avant de partir, et c’est réglé.</p>
+        <p class="open-now" id="openNow" hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="foot-main">
+      <span class="brand-word">CYCLO <em>café</em></span>
+      <p data-i18n="footLine">Boulevard de Pérolles 91, 1700 Fribourg · 026 322 02 28</p>
+    </div>
+    <p class="foot-note" data-i18n="footNote">Informations issues des profils publics de l’établissement (Google, local.ch, TripAdvisor, novembre 2026).</p>
+    <p class="foot-demo" data-i18n="footDemo">Site de démonstration : visuels d’ambiance générés ; à la mise en ligne, ils cèdent la place aux photos de la maison.</p>
+  </footer>
+</main>
+
+<nav class="mobilebar" aria-label="Actions rapides">
+  <a href="tel:+41263220228"><span class="mb-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><span data-i18n="barCall">Appeler</span></a>
+  <a href="#carte"><span class="mb-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></span><span data-i18n="barMenu">La carte</span></a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Cyclo+Caf%C3%A9+Boulevard+de+P%C3%A9rolles+91+1700+Fribourg" target="_blank" rel="noopener"><span class="mb-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg></span><span data-i18n="barDir">Itinéraire</span></a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
